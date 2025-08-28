@@ -3,9 +3,13 @@ text-align:center;
 text-transform:capitalize;
 }
 *{
-font-family:"Times New Roman"}
+font-family:"Times New Roman";
+}
+
+/* alpha channel rgba(255,0,0,0.5)*/
+
 #box{
-background-color:red;
+background-color:rgba(11,150,25,0.5);
 color:white;
 }
 
@@ -25,4 +29,31 @@ font-size:25px;
 }
 #inner{
 font-size:10px;
+}
+
+#box1{
+width:100px;
+height:100px;
+margin:25px;
+padding:25px;
+display:inline-block;
+background-color:rgba(0,0,255,0.3);
+}
+
+#box2{
+width:100px;
+height:100px;
+margin:25px;
+padding:25px;
+display:inline-block;
+background-color:rgba(0,0,255,0.5);
+}
+
+#box3{
+width:100px;
+height:100px;
+margin:25px;
+padding:25px;
+display:inline-block;
+background-color:rgba(0,0,255,0.75);
 }
